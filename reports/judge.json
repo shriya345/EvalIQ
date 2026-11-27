@@ -1,0 +1,141 @@
+{
+  "experiment_id": "dbfbc768-fca3-4dea-8bc5-f67994d4e140",
+  "ratings": [
+    {
+      "case_id": "support-01",
+      "dimension": "faithfulness",
+      "judge_model": "Qwen2.5-1.5B-Instruct-Q4_K_M",
+      "judge_prompt_version": "rubric-v1",
+      "raw": "```json\n{\n  \"score\": 1,\n  \"evidence\": \"Unopened goods may be returned within 30 calendar days.\",\n  \"explanation\": \"The answer claim is directly supported by the passage, which states 'Unopened goods may be returned within 30 calendar days.'\",\n  \"uncertain\": false\n}\n```",
+      "score": 1,
+      "evidence": "Unopened goods may be returned within 30 calendar days.",
+      "explanation": "The answer claim is directly supported by the passage, which states 'Unopened goods may be returned within 30 calendar days.'",
+      "uncertain": false,
+      "valid": true
+    },
+    {
+      "case_id": "support-01",
+      "dimension": "relevance",
+      "judge_model": "Qwen2.5-1.5B-Instruct-Q4_K_M",
+      "judge_prompt_version": "rubric-v1",
+      "raw": "{\"score\": 0, \"evidence\": \"Unopened goods may be returned within 30 calendar days.\", \"explanation\": \"The answer does not address the question about window in calendar days.\", \"uncertain\": false}",
+      "score": 0,
+      "evidence": "Unopened goods may be returned within 30 calendar days.",
+      "explanation": "The answer does not address the question about window in calendar days.",
+      "uncertain": false,
+      "valid": true
+    },
+    {
+      "case_id": "support-01",
+      "dimension": "completeness",
+      "judge_model": "Qwen2.5-1.5B-Instruct-Q4_K_M",
+      "judge_prompt_version": "rubric-v1",
+      "raw": "{\n  \"score\": 1,\n  \"evidence\": \"Unopened goods may be returned within 30 calendar days.\",\n  \"explanation\": \"The answer directly addresses the question by providing the number of calendar days for returning unopened goods, which is 30 days.\",\n  \"uncertain\": false\n}",
+      "score": 1,
+      "evidence": "Unopened goods may be returned within 30 calendar days.",
+      "explanation": "The answer directly addresses the question by providing the number of calendar days for returning unopened goods, which is 30 days.",
+      "uncertain": false,
+      "valid": true
+    },
+    {
+      "case_id": "support-01",
+      "dimension": "unsupported_claims",
+      "judge_model": "Qwen2.5-1.5B-Instruct-Q4_K_M",
+      "judge_prompt_version": "rubric-v1",
+      "raw": "```json\n{\n  \"score\": 1,\n  \"explanation\": \"The answer is supported by the passage and does not contain unsupported factual claims.\",\n  \"evidence\": \"Unopened goods may be returned within 30 calendar days.\",\n  \"uncertain\": false\n}\n```",
+      "score": 1,
+      "evidence": "Unopened goods may be returned within 30 calendar days.",
+      "explanation": "The answer is supported by the passage and does not contain unsupported factual claims.",
+      "uncertain": false,
+      "valid": true
+    },
+    {
+      "case_id": "support-13",
+      "dimension": "faithfulness",
+      "judge_model": "Qwen2.5-1.5B-Instruct-Q4_K_M",
+      "judge_prompt_version": "rubric-v1",
+      "raw": "```json\n{\n  \"score\": 0,\n  \"evidence\": \"For customer support use the ticket portal. English is supported.\",\n  \"explanation\": \"The passage does not provide any information about a phone number.\",\n  \"uncertain\": false\n}\n```",
+      "score": 0,
+      "evidence": "For customer support use the ticket portal. English is supported.",
+      "explanation": "The passage does not provide any information about a phone number.",
+      "uncertain": false,
+      "valid": true
+    },
+    {
+      "case_id": "support-13",
+      "dimension": "relevance",
+      "judge_model": "Qwen2.5-1.5B-Instruct-Q4_K_M",
+      "judge_prompt_version": "rubric-v1",
+      "raw": "{\n  \"score\": 0,\n  \"evidence\": null,\n  \"explanation\": \"The answer does not address the question about the phone number.\",\n  \"uncertain\": false\n}",
+      "valid": false,
+      "score": null,
+      "uncertain": true
+    },
+    {
+      "case_id": "support-13",
+      "dimension": "completeness",
+      "judge_model": "Qwen2.5-1.5B-Instruct-Q4_K_M",
+      "judge_prompt_version": "rubric-v1",
+      "raw": "{\"score\": 0, \"evidence\": \"For customer support use the ticket portal. English is supported.\", \"explanation\": \"The answer does not mention the phone number.\", \"uncertain\": false}",
+      "score": 0,
+      "evidence": "For customer support use the ticket portal. English is supported.",
+      "explanation": "The answer does not mention the phone number.",
+      "uncertain": false,
+      "valid": true
+    },
+    {
+      "case_id": "support-13",
+      "dimension": "unsupported_claims",
+      "judge_model": "Qwen2.5-1.5B-Instruct-Q4_K_M",
+      "judge_prompt_version": "rubric-v1",
+      "raw": "```json\n{\n  \"score\": 0,\n  \"evidence\": \"For customer support use the ticket portal. English is supported.\",\n  \"explanation\": \"The answer 'unknown' is unsupported and does not provide any factual claims.\",\n  \"uncertain\": false\n}\n```",
+      "score": 0,
+      "evidence": "For customer support use the ticket portal. English is supported.",
+      "explanation": "The answer 'unknown' is unsupported and does not provide any factual claims.",
+      "uncertain": false,
+      "valid": true
+    },
+    {
+      "case_id": "support-16",
+      "dimension": "faithfulness",
+      "judge_model": "Qwen2.5-1.5B-Instruct-Q4_K_M",
+      "judge_prompt_version": "rubric-v1",
+      "raw": "```json\n{\n  \"score\": 2,\n  \"evidence\": \"Standard delivery costs 4 credits and takes 5 business days. Express delivery costs 9 credits.\",\n  \"explanation\": \"The answer claims that standard shipping costs 4 credits and express shipping costs 9 credits, which are directly supported by the provided passages.\",\n  \"uncertain\": false\n}\n```",
+      "valid": false,
+      "score": null,
+      "uncertain": true
+    },
+    {
+      "case_id": "support-16",
+      "dimension": "relevance",
+      "judge_model": "Qwen2.5-1.5B-Instruct-Q4_K_M",
+      "judge_prompt_version": "rubric-v1",
+      "raw": "{\n  \"score\": 2,\n  \"evidence\": \"Standard delivery costs 4 credits and takes 5 business days. Express delivery costs 9 credits.\",\n  \"explanation\": \"The answer directly addresses the question by providing the standard and express shipping fees in the requested format.\",\n  \"uncertain\": false\n}",
+      "valid": false,
+      "score": null,
+      "uncertain": true
+    },
+    {
+      "case_id": "support-16",
+      "dimension": "completeness",
+      "judge_model": "Qwen2.5-1.5B-Instruct-Q4_K_M",
+      "judge_prompt_version": "rubric-v1",
+      "raw": "{\n  \"score\": 2,\n  \"evidence\": \"Standard delivery costs 4 credits and takes 5 business days. Express delivery costs 9 credits.\",\n  \"explanation\": \"The answer covers every part of the question by providing the standard and express shipping fees in the required format (two numbers separated by a comma).\",\n  \"uncertain\": false\n}",
+      "valid": false,
+      "score": null,
+      "uncertain": true
+    },
+    {
+      "case_id": "support-16",
+      "dimension": "unsupported_claims",
+      "judge_model": "Qwen2.5-1.5B-Instruct-Q4_K_M",
+      "judge_prompt_version": "rubric-v1",
+      "raw": "```json\n{\n  \"score\": 2,\n  \"evidence\": \"Standard delivery costs 4 credits and takes 5 business days. Express delivery costs 9 credits.\",\n  \"explanation\": \"The answer provides specific and supported factual claims regarding standard and express shipping fees.\",\n  \"uncertain\": false\n}\n```",
+      "valid": false,
+      "score": null,
+      "uncertain": true
+    }
+  ],
+  "human_comparisons": 0,
+  "exact_agreement": null
+}

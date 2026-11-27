@@ -1,0 +1,134 @@
+[
+  {
+    "method": "BM25",
+    "queries": 20,
+    "answerable": 14,
+    "unanswerable": 6,
+    "precision_at_3": 0.38095238095238093,
+    "recall_at_3": 0.8452380952380952,
+    "mrr_at_3": 0.75,
+    "hit_rate": 0.9285714285714286,
+    "gold_chunks": 20,
+    "relevant_retrieved": 16,
+    "correct": 19,
+    "citations": 15,
+    "valid": 15,
+    "reviewed_support": 15,
+    "appropriate_abstentions": 6,
+    "median_retrieval_ms": 0.3717504999940502,
+    "median_end_to_end_ms": 1134.8515414999838,
+    "tokens": 5552,
+    "token_cases": 20,
+    "configuration": [
+      3,
+      "all",
+      [
+        [
+          "Qwen2.5-1.5B-Instruct-Q4_K_M",
+          "rag-1"
+        ]
+      ],
+      "29512b2910f3720ce80927593013c1f913f9ac44bf86a4a7745bfad2470e040d",
+      "f44e178bc8d68660679f4c8ab585357d5dde938d0095e41e6b24e5b9e06a1d8b"
+    ]
+  },
+  {
+    "method": "Semantic",
+    "queries": 20,
+    "answerable": 14,
+    "unanswerable": 6,
+    "precision_at_3": 0.23809523809523808,
+    "recall_at_3": 0.5357142857142857,
+    "mrr_at_3": 0.5357142857142857,
+    "hit_rate": 0.6428571428571429,
+    "gold_chunks": 20,
+    "relevant_retrieved": 10,
+    "correct": 14,
+    "citations": 13,
+    "valid": 13,
+    "reviewed_support": 10,
+    "appropriate_abstentions": 6,
+    "median_retrieval_ms": 29.277062500000284,
+    "median_end_to_end_ms": 737.3593539999774,
+    "tokens": 4753,
+    "token_cases": 20,
+    "configuration": [
+      3,
+      "all",
+      [
+        [
+          "Qwen2.5-1.5B-Instruct-Q4_K_M",
+          "rag-1"
+        ]
+      ],
+      "29512b2910f3720ce80927593013c1f913f9ac44bf86a4a7745bfad2470e040d",
+      "f44e178bc8d68660679f4c8ab585357d5dde938d0095e41e6b24e5b9e06a1d8b"
+    ]
+  },
+  {
+    "method": "Hybrid",
+    "queries": 20,
+    "answerable": 14,
+    "unanswerable": 6,
+    "precision_at_3": 0.38095238095238093,
+    "recall_at_3": 0.8333333333333334,
+    "mrr_at_3": 0.8809523809523809,
+    "hit_rate": 0.9285714285714286,
+    "gold_chunks": 20,
+    "relevant_retrieved": 16,
+    "correct": 18,
+    "citations": 16,
+    "valid": 16,
+    "reviewed_support": 14,
+    "appropriate_abstentions": 6,
+    "median_retrieval_ms": 0.5098335001321175,
+    "median_end_to_end_ms": 804.6306460000778,
+    "tokens": 6059,
+    "token_cases": 20,
+    "configuration": [
+      3,
+      "all",
+      [
+        [
+          "Qwen2.5-1.5B-Instruct-Q4_K_M",
+          "rag-1"
+        ]
+      ],
+      "29512b2910f3720ce80927593013c1f913f9ac44bf86a4a7745bfad2470e040d",
+      "f44e178bc8d68660679f4c8ab585357d5dde938d0095e41e6b24e5b9e06a1d8b"
+    ]
+  },
+  {
+    "method": "Hybrid + reranker",
+    "queries": 20,
+    "answerable": 14,
+    "unanswerable": 6,
+    "precision_at_3": 0.40476190476190477,
+    "recall_at_3": 0.9047619047619048,
+    "mrr_at_3": 0.8452380952380952,
+    "hit_rate": 1,
+    "gold_chunks": 20,
+    "relevant_retrieved": 17,
+    "correct": 18,
+    "citations": 16,
+    "valid": 16,
+    "reviewed_support": 14,
+    "appropriate_abstentions": 6,
+    "median_retrieval_ms": 102.28793700014194,
+    "median_end_to_end_ms": 915.4976874999647,
+    "tokens": 6257,
+    "token_cases": 20,
+    "configuration": [
+      3,
+      "all",
+      [
+        [
+          "Qwen2.5-1.5B-Instruct-Q4_K_M",
+          "rag-1"
+        ]
+      ],
+      "29512b2910f3720ce80927593013c1f913f9ac44bf86a4a7745bfad2470e040d",
+      "f44e178bc8d68660679f4c8ab585357d5dde938d0095e41e6b24e5b9e06a1d8b"
+    ]
+  }
+]

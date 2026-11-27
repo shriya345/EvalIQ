@@ -1,0 +1,88 @@
+{
+  "support-01": {
+    "answer": 30,
+    "citations": [
+      "returns"
+    ]
+  },
+  "support-02": {
+    "answer": "no",
+    "citations": [
+      "returns"
+    ]
+  },
+  "support-03": {
+    "answer": "unopened",
+    "citations": [
+      "returns"
+    ]
+  },
+  "support-04": {
+    "answer": 4,
+    "citations": [
+      "shipping"
+    ]
+  },
+  "support-05": {
+    "answer": 9,
+    "citations": [
+      "shipping"
+    ]
+  },
+  "support-06": {
+    "answer": 5,
+    "citations": [
+      "shipping"
+    ]
+  },
+  "support-07": {
+    "answer": "portal",
+    "citations": [
+      "support"
+    ]
+  },
+  "support-08": {
+    "answer": "English",
+    "citations": [
+      "support"
+    ]
+  },
+  "support-09": {
+    "answer": "unspecified",
+    "citations": [
+      "support"
+    ]
+  },
+  "support-10": {
+    "answer": 12,
+    "citations": [
+      "current"
+    ]
+  },
+  "support-11": {
+    "answer": "proof of purchase",
+    "citations": [
+      "current"
+    ]
+  },
+  "support-12": {
+    "answer": "no",
+    "citations": [
+      "current"
+    ]
+  },
+  "support-13": {
+    "answer": "unknown",
+    "citations": []
+  },
+  "support-14": {
+    "answer": "unknown",
+    "citations": []
+  },
+  "support-15": {
+    "answer": 9,
+    "citations": [
+      "shipping"
+    ]
+  }
+}

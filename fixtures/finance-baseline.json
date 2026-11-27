@@ -1,0 +1,30 @@
+{
+  "finance-01": {
+    "answer": 120,
+    "citations": [
+      "ledger"
+    ]
+  },
+  "finance-02": {
+    "answer": 90,
+    "citations": [
+      "unlisted"
+    ]
+  },
+  "finance-03": {
+    "answer": 30,
+    "citations": [
+      "ledger"
+    ]
+  },
+  "finance-04": {
+    "answer": 152,
+    "citations": [
+      "ledger"
+    ]
+  },
+  "finance-05": {
+    "answer": "unknown",
+    "citations": []
+  }
+}

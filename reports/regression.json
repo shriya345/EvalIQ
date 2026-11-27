@@ -1,0 +1,88 @@
+{
+  "correct": {
+    "state": "regression",
+    "change": -0.17647058823529413,
+    "n": 17,
+    "threshold": 0.0,
+    "worse_cases": [
+      "support-12",
+      "support-16",
+      "support-17"
+    ]
+  },
+  "recall": {
+    "state": "pass",
+    "change": 0.09999999999999998,
+    "n": 15,
+    "threshold": 0.0,
+    "worse_cases": []
+  },
+  "citation_support": {
+    "state": "pass",
+    "change": 0.0,
+    "n": 15,
+    "threshold": 0.0,
+    "worse_cases": []
+  },
+  "completed": {
+    "state": "pass",
+    "change": 0.0,
+    "n": 17,
+    "threshold": 0.0,
+    "worse_cases": [
+      "support-16"
+    ]
+  },
+  "error": {
+    "state": "pass",
+    "change": 0.0,
+    "n": 17,
+    "threshold": 0.0,
+    "worse_cases": []
+  },
+  "p95_ms": {
+    "state": "pass",
+    "change": 251.94657520003148,
+    "n": 17,
+    "threshold": 500,
+    "worse_cases": [
+      "support-03",
+      "support-04",
+      "support-05",
+      "support-06",
+      "support-07",
+      "support-08",
+      "support-10",
+      "support-11",
+      "support-12",
+      "support-13",
+      "support-14",
+      "support-15",
+      "support-16",
+      "support-17"
+    ]
+  },
+  "tokens": {
+    "state": "pass",
+    "change": -0.529411764705884,
+    "n": 17,
+    "threshold": 10,
+    "worse_cases": [
+      "support-03",
+      "support-04",
+      "support-05",
+      "support-07",
+      "support-08",
+      "support-11",
+      "support-12",
+      "support-17"
+    ]
+  },
+  "cost": {
+    "state": "insufficient",
+    "change": null,
+    "n": 0,
+    "threshold": 0.001,
+    "worse_cases": []
+  }
+}

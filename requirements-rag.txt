@@ -1,0 +1,4 @@
+# Optional for running the dense and reranked configurations on CPU.
+sentence-transformers==5.4.1
+transformers==5.5.4
+torch==2.11.0

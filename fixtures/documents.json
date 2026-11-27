@@ -1,0 +1,89 @@
+{
+  "returns": {
+    "text": "Unopened goods may be returned within 30 calendar days. Clearance goods are final sale.",
+    "facts": {
+      "days": 30
+    }
+  },
+  "shipping": {
+    "text": "Standard delivery costs 4 credits. Express costs 9 credits. Standard delivery takes 5 business days.",
+    "facts": {
+      "standard": 4,
+      "express": 9,
+      "duration": 5
+    }
+  },
+  "support": {
+    "text": "Ticket support is available Monday to Friday. Use the portal. English is supported.",
+    "facts": {}
+  },
+  "legacy": {
+    "text": "Archived warranty: 6 months. Superseded by current warranty.",
+    "facts": {
+      "months": 6
+    }
+  },
+  "current": {
+    "text": "Current warranty is 12 months. Proof of purchase is required. Warranty excludes accidental damage.",
+    "facts": {
+      "months": 12
+    }
+  },
+  "ledger": {
+    "text": "Fictional Q1 ledger, in credits: sales 120, expenses 90, profit 30. Q2 sales 150. No debt figure disclosed.",
+    "facts": {
+      "sales": 120,
+      "expenses": 90,
+      "profit": 30,
+      "q2": 150
+    }
+  },
+  "d4f1099eae91e251cbc4b1c4ed4acd76a076cf59d59753b5df23ec1c60296ff0": {
+    "text": "AAPL FY ended 2024-09-28, revenue in USD",
+    "facts": {
+      "revenue": 391035000000
+    },
+    "filing": "https://www.sec.gov/Archives/edgar/data/320193/000032019324000123/aapl-20240928.htm",
+    "accession": "0000320193-24-000123"
+  },
+  "501d88f3f4cc037f2a6e8997e795a0920cfc31e75e07e508e16041aa28075541": {
+    "text": "AAPL FY ended 2024-09-28, net_income in USD",
+    "facts": {
+      "net_income": 93736000000
+    },
+    "filing": "https://www.sec.gov/Archives/edgar/data/320193/000032019324000123/aapl-20240928.htm",
+    "accession": "0000320193-24-000123"
+  },
+  "b6b42e92b826123e3b55f470a2c8a8658ee922c10f41a771359df9258199498c": {
+    "text": "AAPL FY ended 2024-09-28, operating_cash in USD",
+    "facts": {
+      "operating_cash": 118254000000
+    },
+    "filing": "https://www.sec.gov/Archives/edgar/data/320193/000032019324000123/aapl-20240928.htm",
+    "accession": "0000320193-24-000123"
+  },
+  "9dca1ff6290b26cd9e8f38fd7ad4b9d30cd3e873571b46c1f427b6157342c960": {
+    "text": "AAPL FY ended 2024-09-28, capex in USD",
+    "facts": {
+      "capex": 9447000000
+    },
+    "filing": "https://www.sec.gov/Archives/edgar/data/320193/000032019324000123/aapl-20240928.htm",
+    "accession": "0000320193-24-000123"
+  },
+  "d0b98382943a81a9301db159fa31c3fa935b2e23f99e06b861702a14a07c641d": {
+    "text": "MSFT FY ended 2024-06-30, revenue in USD",
+    "facts": {
+      "revenue": 245122000000
+    },
+    "filing": "https://www.sec.gov/Archives/edgar/data/789019/000119312524242888/d815777dars.pdf",
+    "accession": "0000950170-24-087843"
+  },
+  "140f8f7178277d92722dbe83b03058e436be66415afec59f4fcd3c73e89ef6ea": {
+    "text": "MSFT FY ended 2024-06-30, net_income in USD",
+    "facts": {
+      "net_income": 88136000000
+    },
+    "filing": "https://www.sec.gov/Archives/edgar/data/789019/000119312524242888/d815777dars.pdf",
+    "accession": "0000950170-24-087843"
+  }
+}

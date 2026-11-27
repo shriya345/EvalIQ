@@ -1,0 +1,42 @@
+[
+  {
+    "id": "finance-01",
+    "question": "Q1 revenue?",
+    "expected": 120,
+    "source": "ledger",
+    "fact": "sales",
+    "mode": "numeric"
+  },
+  {
+    "id": "finance-02",
+    "question": "Q1 expenses?",
+    "expected": 90,
+    "source": "ledger",
+    "fact": "expenses",
+    "mode": "numeric"
+  },
+  {
+    "id": "finance-03",
+    "question": "Q1 profit?",
+    "expected": 30,
+    "source": "ledger",
+    "fact": "profit",
+    "mode": "numeric"
+  },
+  {
+    "id": "finance-04",
+    "question": "Q2 revenue?",
+    "expected": 150,
+    "source": "ledger",
+    "fact": "q2",
+    "mode": "numeric"
+  },
+  {
+    "id": "finance-05",
+    "question": "Reported debt?",
+    "expected": "unknown",
+    "source": null,
+    "fact": null,
+    "mode": "exact"
+  }
+]

@@ -1,0 +1,42 @@
+{
+  "filing-01": {
+    "answer": 391035000000,
+    "citations": [
+      "d4f1099eae91e251cbc4b1c4ed4acd76a076cf59d59753b5df23ec1c60296ff0"
+    ]
+  },
+  "filing-02": {
+    "answer": 93736000000,
+    "citations": [
+      "501d88f3f4cc037f2a6e8997e795a0920cfc31e75e07e508e16041aa28075541"
+    ]
+  },
+  "filing-03": {
+    "answer": 118254000000,
+    "citations": [
+      "b6b42e92b826123e3b55f470a2c8a8658ee922c10f41a771359df9258199498c"
+    ]
+  },
+  "filing-04": {
+    "answer": 9447000000,
+    "citations": [
+      "9dca1ff6290b26cd9e8f38fd7ad4b9d30cd3e873571b46c1f427b6157342c960"
+    ]
+  },
+  "filing-07": {
+    "answer": 245122000000,
+    "citations": [
+      "d0b98382943a81a9301db159fa31c3fa935b2e23f99e06b861702a14a07c641d"
+    ]
+  },
+  "filing-08": {
+    "answer": 88136000000,
+    "citations": [
+      "140f8f7178277d92722dbe83b03058e436be66415afec59f4fcd3c73e89ef6ea"
+    ]
+  },
+  "filing-10": {
+    "answer": null,
+    "citations": []
+  }
+}

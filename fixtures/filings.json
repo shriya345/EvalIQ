@@ -1,0 +1,58 @@
+[
+  {
+    "id": "filing-01",
+    "question": "FY2024 \u00b7 Apple revenue",
+    "expected": 391035000000.0,
+    "source": "d4f1099eae91e251cbc4b1c4ed4acd76a076cf59d59753b5df23ec1c60296ff0",
+    "fact": "revenue",
+    "mode": "numeric"
+  },
+  {
+    "id": "filing-02",
+    "question": "FY2024 \u00b7 Apple earnings",
+    "expected": 93736000000.0,
+    "source": "501d88f3f4cc037f2a6e8997e795a0920cfc31e75e07e508e16041aa28075541",
+    "fact": "net_income",
+    "mode": "numeric"
+  },
+  {
+    "id": "filing-03",
+    "question": "FY2024 \u00b7 Apple operating cash flow",
+    "expected": 118254000000.0,
+    "source": "b6b42e92b826123e3b55f470a2c8a8658ee922c10f41a771359df9258199498c",
+    "fact": "operating_cash",
+    "mode": "numeric"
+  },
+  {
+    "id": "filing-04",
+    "question": "FY2024 \u00b7 Apple capex",
+    "expected": 9447000000.0,
+    "source": "9dca1ff6290b26cd9e8f38fd7ad4b9d30cd3e873571b46c1f427b6157342c960",
+    "fact": "capex",
+    "mode": "numeric"
+  },
+  {
+    "id": "filing-07",
+    "question": "FY2024 \u00b7 Microsoft revenue",
+    "expected": 245122000000.0,
+    "source": "d0b98382943a81a9301db159fa31c3fa935b2e23f99e06b861702a14a07c641d",
+    "fact": "revenue",
+    "mode": "numeric"
+  },
+  {
+    "id": "filing-08",
+    "question": "FY2024 \u00b7 Microsoft net income",
+    "expected": 88136000000.0,
+    "source": "140f8f7178277d92722dbe83b03058e436be66415afec59f4fcd3c73e89ef6ea",
+    "fact": "net_income",
+    "mode": "numeric"
+  },
+  {
+    "id": "filing-10",
+    "question": "FY2024 \u00b7 Does evidence include a forecast share price?",
+    "expected": null,
+    "source": null,
+    "fact": null,
+    "mode": "exact"
+  }
+]
